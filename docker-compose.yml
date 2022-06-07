@@ -1,0 +1,9 @@
+services:
+  rest_dotnet:
+    build:
+      context: ./rest_dotnet
+    environment:
+      PORT: 5000
+    ports:
+    - 5000:5000
+version: '3.9'
